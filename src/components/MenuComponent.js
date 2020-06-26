@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Button } from "react-bootstrap";
 
 const rowStyle = {
   padding: "10px",
@@ -22,6 +22,7 @@ const imgStyle = {
   marginTop: "20px",
   marginBottom: "20px",
 };
+
 
 function MenuComponent() {
   return (
@@ -54,17 +55,20 @@ function MenuComponent() {
 
           <Row style={rowStyle}>
             <Button style={colStyle} variant="secondary">
-            <img src={require("../images/human-resources.png")} style={imgStyle}></img>
+              <img
+                src={require("../images/human-resources.png")}
+                style={imgStyle}
+              ></img>
               <br />
               Manage Users
             </Button>{" "}
             <Button style={colStyle} variant="secondary">
-            <img src={require("../images/adjust.png")} style={imgStyle}></img>
+              <img src={require("../images/adjust.png")} style={imgStyle}></img>
               <br />
               PC Parameter Setting
             </Button>{" "}
             <Button style={colStyle} variant="secondary">
-            <img src={require("../images/adjust.png")} style={imgStyle}></img>
+              <img src={require("../images/adjust.png")} style={imgStyle}></img>
               <br />
               PC Parameter Setting Group
             </Button>{" "}
