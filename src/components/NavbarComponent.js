@@ -6,18 +6,11 @@ import {
   Navbar,
   Form,
   FormControl,
-  Container,
-  Row,
-  Col
 } from "react-bootstrap";
-import "../App.css"
+import "../App.css";
 
 const navStyle = {
   padding: "15px 0px 10px 0px",
-};
-
-const fontStyle = {
-  fontSize: "20px",
 };
 
 const imgStyle = {
@@ -32,13 +25,8 @@ const formStyle = {
   paddingRight: "10px",
 };
 
-const rowStyle = {
-  justifyContent: 'space-between',
-  backgroundColor: 'gray'
-};
-
 function NavbarComponent() {
-  const logo = require("../images/pepsico\ (1).png");
+  const logo = require("../images/pepsico (1).png");
   return (
     <div className="NavbarComponent">
       <>
@@ -57,15 +45,6 @@ function NavbarComponent() {
             <Button variant="outline-primary">Search</Button>
           </Form>
         </Navbar>
-
-        <Container>
-          <Row xs="1" sm="2" md="4" style={rowStyle}>
-            <Col>Column</Col>
-            <Col>Column</Col>
-            <Col>Column</Col>
-            <Col>Column</Col>
-          </Row>
-        </Container>
       </>
     </div>
   );
