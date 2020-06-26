@@ -26,14 +26,13 @@ const formStyle = {
 };
 
 function NavbarComponent() {
-  const logo = require("../images/pepsico (1).png");
   return (
     <div className="NavbarComponent">
       <>
         <Navbar style={navStyle} bg="light" variant="light">
           <Navbar.Brand href="#home">
             {" "}
-            <img src={logo} style={imgStyle}></img>
+            <img src={require("../images/pepsico (1).png")} style={imgStyle}></img>
           </Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
