@@ -6,24 +6,25 @@ import { Container, Row, Button } from "react-bootstrap";
 
 const rowStyle = {
   padding: "10px",
+  marginTop: "20px",
 };
 
 const colStyle = {
-  fontWeight: 700,
+  borderRadius: "35px",
+  fontWeight: 500,
   color: "black",
-  backgroundColor: "#DADADA",
+  backgroundColor: "#EAEAEA",
   flex: 1,
   padding: "10px",
   margin: "20px 70px 0px 70px",
-
+  height: "160px",
 };
 
 const imgStyle = {
-  height: "50px",
+  height: "60px",
   marginTop: "20px",
   marginBottom: "20px",
 };
-
 
 function MenuComponent() {
   return (
@@ -72,6 +73,27 @@ function MenuComponent() {
               <img src={require("../images/adjust.png")} style={imgStyle}></img>
               <br />
               PC Parameter Setting Group
+            </Button>{" "}
+          </Row>
+
+          <Row style={rowStyle}>
+            <Button style={colStyle} variant="secondary">
+              <img
+                src={require("../images/factory.png")}
+                style={imgStyle}
+              ></img>
+              <br />
+              Sample
+            </Button>{" "}
+            <Button style={colStyle} variant="secondary">
+              <img src={require("../images/snack.png")} style={imgStyle}></img>
+              <br />
+              Sample
+            </Button>{" "}
+            <Button style={colStyle} variant="secondary">
+              <img src={require("../images/update.png")} style={imgStyle}></img>
+              <br />
+              Sample
             </Button>{" "}
           </Row>
         </Container>
