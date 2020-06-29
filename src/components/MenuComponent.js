@@ -42,7 +42,7 @@ function MenuComponent() {
             </Button>{" "}
             <Button style={colStyle} variant="secondary">
               <img
-                src={require("../images/sydney-opera-house.png")}
+                src={require("../images/homepage.png")}
                 style={imgStyle}
               ></img>
               <br />
@@ -70,7 +70,7 @@ function MenuComponent() {
               PC Parameter Setting
             </Button>{" "}
             <Button style={colStyle} variant="secondary">
-              <img src={require("../images/adjust.png")} style={imgStyle}></img>
+              <img src={require("../images/multiple-users.png")} style={imgStyle}></img>
               <br />
               PC Parameter Setting Group
             </Button>{" "}
@@ -79,21 +79,21 @@ function MenuComponent() {
           <Row style={rowStyle}>
             <Button style={colStyle} variant="secondary">
               <img
-                src={require("../images/factory.png")}
+                src={require("../images/snack.png")}
                 style={imgStyle}
               ></img>
               <br />
-              Sample
+              Non-PC
             </Button>{" "}
             <Button style={colStyle} variant="secondary">
-              <img src={require("../images/snack.png")} style={imgStyle}></img>
+              <img src={require("../images/recipe.png")} style={imgStyle}></img>
               <br />
-              Sample
+              OMS
             </Button>{" "}
             <Button style={colStyle} variant="secondary">
-              <img src={require("../images/update.png")} style={imgStyle}></img>
+              <img src={require("../images/package.png")} style={imgStyle}></img>
               <br />
-              Sample
+              Packing
             </Button>{" "}
           </Row>
         </Container>

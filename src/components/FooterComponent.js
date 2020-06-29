@@ -5,15 +5,16 @@ import "../App.css";
 import { Container, Navbar, NavbarBrand } from "react-bootstrap";
 
 const navStyle = {
-    backgroundColor: "#DADADA",
-    position: "absolute",
-    bottom: 0,
-    width: "100%",
-  };
+  backgroundColor: "#DADADA",
+  position: "fixed",
+  display: "flex",
+  bottom: 0,
+  width: "100%",
+};
 
 function FooterComponent() {
   return (
-    <div className="FooterComponent">
+      <div className="FooterComponent">
       <>
         <Navbar color="dark" style={navStyle}>
           <Container>
