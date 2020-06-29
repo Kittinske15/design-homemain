@@ -15,6 +15,7 @@ const colStyle = {
   flex: 1,
   padding: "10px",
   margin: "20px 70px 0px 70px",
+
 };
 
 const imgStyle = {
